@@ -20,7 +20,8 @@ body {
 }
 
 .heading-size {
-    font-size: 40px;    
+    font-size: 40px;
+    font-family: Yeseva One;
 }
 
 .heading {
@@ -112,7 +113,6 @@ h2 {
 }
 
 h1 {
-    /* text-align: center; */
     font-family: Poppins;
     font-size: 40px;
 }
