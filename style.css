@@ -1,11 +1,13 @@
 body {
+    font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
     margin: 0;
 }
 
-.top-area-heading {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .top-area-info {
@@ -31,7 +33,7 @@ body {
     color: orange;
 }
 
-p {
+p, .scroll-font {
     font-family: Poppins;
 }
 
@@ -46,12 +48,67 @@ p {
     border-radius: 10px;
 }
 
-span {
+.mission-heading {
+    text-align: center;
     font-family: Poppins;
-    font-size: 14px;
- 
+    font-size: 40px;
+    font-weight: 900;
 }
 
-.top-area {
-    margin-bottom: 100px;
+.mission {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.mission img{
+    width: 70%;
+}
+
+#mission-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 20px;
+}
+
+#mission-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 20px;
+}
+
+#mission-3 {
+    background-color: #FFF4D6;
+    border-radius: 20px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 70%;
+    margin-left: 130px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    line-height: 25px;
+    font-weight: 900;
+}
+.gb-community-info {
+    margin-left: 130px;
+}
+
+.footer {
+    padding: 15px;
+    background-color: #0B0D17;
+}
+.footer-info {
+    text-align: center;
+    color: white;
+}
+
+#footer-heading {
+    font-family: Lobster;
+    font-size: 30px;
 }
